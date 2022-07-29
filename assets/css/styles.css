@@ -135,6 +135,9 @@ img {
   height: auto;
 }
 
+button{
+  border: none;
+}
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
@@ -514,11 +517,11 @@ img {
 }
 
 .skills__js{
-  width: 90%;
+  width: 80%;
 }
 
 .skills__react{
-  width: 60%;
+  width: 70%;
 }
 
 .skills__syntax{
@@ -780,7 +783,9 @@ img {
 }
 
 .footer__container{
+  display: flex;
   row-gap: 3.5rem;
+  justify-content: space-between;
 }
 
 .footer__bg{
@@ -797,11 +802,11 @@ img {
   font-size: var(--small-font-size);
 }
 
-.footer__lines{
+/* .footer__links{
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
-}
+} */
 
 .footer__links:hover{
   color: var(--first-color-lighter);

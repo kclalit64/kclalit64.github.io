@@ -3,9 +3,9 @@
 var typed = new Typed(".typing",{
     strings: [".","Hello! 👋", "नमस्ते! 🙏"],
     typeSpeed: 100,
-    BackSpeed: 10,
-    loop: true
-})
+    BackSpeed: 30,
+    loop: true}
+    )
 /*==================== MENU SHOW Y HIDDEN ====================*/
 
 const navMenu = document.getElementById('nav-menu'),
